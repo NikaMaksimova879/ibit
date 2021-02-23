@@ -4,7 +4,6 @@ import telebot
 import requests
 from telebot import types
 
-#ДАННЫЕ, КОТОРЫЕ НУЖНО МЕНЯТЬ
 bot = telebot.TeleBot('1640288704:AAGfSE1bPVXmBeaUlC7VdSCUl3SZqtmrF3w')
 
 markdown = """
