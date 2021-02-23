@@ -5,7 +5,7 @@ import requests
 from telebot import types
 
 #ДАННЫЕ, КОТОРЫЕ НУЖНО МЕНЯТЬ
-bot = telebot.TeleBot('1696159984:AAH0wWupmnThoig6iVewCBGWaCcrq3TwaQE')
+bot = telebot.TeleBot('1644308409:AAGRqGc1fq1-6DtxMZLOF4L0KOWzKBgarCs')
 
 markdown = """
     *bold text*
@@ -65,7 +65,7 @@ def send_message(message):
                                      \nТех. поддержка и бот работает 24/7.
                                      \n''', reply_markup=keyboard1, parse_mode= "Markdown")
     elif message.text == 'Тех. поддержка':
-        bot.send_message(message.chat.id, 'У Вас возникла проблема⁉️\nОбратитесь в телеграм канал тех. поддержки:\nhttps://t.me/skvipman', parse_mode='Markdown', reply_markup=keyboard1)
+        bot.send_message(message.chat.id, 'У Вас возникла проблема⁉️\nОбратитесь в телеграм канал тех. поддержки:\nhttps://t.me/kulnoecp', parse_mode='Markdown', reply_markup=keyboard1)
     elif message.text == '❌Отменить действие':
        bot.send_message(message.chat.id, '''👋🏻 *Приветствуем Тебя в нaшем бoтe.*
                                      \nДля тебя мы подобрали самые *сочные* подборки в архивах, а так же ежедневно пополняем наши *приватные каналы* с самыми откровенными видосами со школьницами.
