@@ -5,7 +5,7 @@ import requests
 from telebot import types
 
 #ДАННЫЕ, КОТОРЫЕ НУЖНО МЕНЯТЬ
-bot = telebot.TeleBot('1644308409:AAGRqGc1fq1-6DtxMZLOF4L0KOWzKBgarCs')
+bot = telebot.TeleBot('1703061063:AAF4dWetuAMY_AaQriFCKJ9GdIpHfvtpI0w')
 
 markdown = """
     *bold text*
